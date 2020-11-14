@@ -363,7 +363,7 @@ encode2 = function (value, indent, level, buffer, buflen, tables, globalorder, s
 end
 
 function json.encode (value, state)
-  state = state or {}
+  state = state or {sortkey = true}
   local oldbuffer = state.buffer
   local buffer = oldbuffer or {}
   state.buffer = buffer
