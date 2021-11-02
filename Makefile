@@ -10,8 +10,8 @@ help:
 lint:
 	luacheck .
 
-### test:             Test 
+### test:             Test
 .PHONY: test
 test:
 	# luarocks install busted
-	 busted .
+	busted .
