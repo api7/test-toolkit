@@ -1,8 +1,10 @@
 package = "api7-dkjson"
-version = "0.1.0-0"
+version = "0.1.1-0"
 source = {
-  url = "https://github.com/api7/test-toolkit",
-  branch = "0.1.0",
+  -- the source url must be specified as git:// or an http to a tar.gz
+  -- see https://github.com/mogui/kong-external-oauth/issues/2#issuecomment-316393647
+  url = "git://github.com/api7/test-toolkit",
+  branch = "v0.1.1",
 }
 description = {
   summary = "A fork of dkjson",
